@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+body {
+    overflow-x: hidden;
+background: rgb(80,2,10);
+background: radial-gradient(circle, rgba(80,2,10,1) 0%, rgba(2,29,60,1) 100%);
+}
+
+.container-fluid{
+	padding-left: 0px; 
+	padding-right: 0px;}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Hace que el contenido de la tarjeta se distribuya mejor */
+  height: 100%; /* Asegura que todas las tarjetas tengan la misma altura */
+}
+
+.card-body {
+  flex-grow: 1; /* Hace que la tarjeta crezca para ocupar el espacio disponible */
+}
+
+.card-img-top {
+  max-height: 500px; /* Ajusta la altura de la imagen si es necesario */
+  object-fit: cover; /* Mantiene el contenido de la imagen ajustado al tamaño */
+}
+
+.navbar-brandansiedad{font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 2em; /* Tamaño del texto */
+    font-weight: bold; /* Peso del texto (negrita) */
+    color: #FAF5F5; /* Color del texto */
+    margin: 20px 0; /* Espacio alrededor del título */
+    padding: 10px; /* Espacio interno del título */
+    position: relative; /* Posicionamiento relativo para efectos */
+	display: flex; /* Activa Flexbox en el contenedor */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+	}
+.navbar-brandalegria{font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 2em; /* Tamaño del texto */
+    font-weight: bold; /* Peso del texto (negrita) */
+    color: #FAF5F5; /* Color del texto */
+    margin: 20px 0; /* Espacio alrededor del título */
+    padding: 10px; /* Espacio interno del título */
+    position: relative; /* Posicionamiento relativo para efectos */
+	display: flex; /* Activa Flexbox en el contenedor */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+	}
+
+.navbar-brandtristeza{font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 2em; /* Tamaño del texto */
+    font-weight: bold; /* Peso del texto (negrita) */
+    color: #FAF5F5; /* Color del texto */
+    margin: 20px 0; /* Espacio alrededor del título */
+    padding: 10px; /* Espacio interno del título */
+    position: relative; /* Posicionamiento relativo para efectos */
+	display: flex; /* Activa Flexbox en el contenedor */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+	}
+
+.navbar-brandenojo{font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 2em; /* Tamaño del texto */
+    font-weight: bold; /* Peso del texto (negrita) */
+    color: #FAF5F5; /* Color del texto */
+    margin: 20px 0; /* Espacio alrededor del título */
+    padding: 10px; /* Espacio interno del título */
+    position: relative; /* Posicionamiento relativo para efectos */
+	display: flex; /* Activa Flexbox en el contenedor */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+	}
+
+.navbar-brandindex{font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-size: 2em; /* Tamaño del texto */
+    font-weight: bold; /* Peso del texto (negrita) */
+    color: #FAF5F5; /* Color del texto */
+    margin: 20px 0; /* Espacio alrededor del título */
+    padding: 10px; /* Espacio interno del título */
+    position: relative; /* Posicionamiento relativo para efectos */
+	display: flex; /* Activa Flexbox en el contenedor */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+	}
+.navbar-dark{
+	
+	padding-bottom: 25px;}
+
+a.btn.btn-primary{
+	background-color: cadetblue;
+	border-color: cadetblue;
+}
+
+img.card-img-top{
+	padding-top: 20px;}
+
+.row{margin-right: 100px;
+     margin-left: 100px;
+     margin-top: 100px;
+     margin-bottom: 100px;}
+
+
+.nav-iti{display: flex; /* Activa Flexbox en el contenedor */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;}
+
+
+.col-lg-12.col-md-12.col-xl-12{
+	padding-bottom: 50px;
+}
+
+.copyright {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	padding-top: 0px;
+	padding-bottom:0px;
+	color:aliceblue;}
+
+.col12.copyright.p{margin-bottom:0px;}
+
+
+.navbar-brand{width: 100%;}
+.container.text-center{
+	padding-top: 30px;
+	
+    font-weight:bold;
+	color:#FFFFFF;}
+
+
+.footer .navbar-brand {
+  margin-bottom:0px; /* Ajusta según lo que necesites */
+}
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 25px; 
+  margin:0px;}
+
+.footer .navbar-brand {
+  margin-bottom: 0px; 
+  margin-top:0px;/* Ajusta el espacio entre el botón y los enlaces */
+  display: block;
+  text-align: center;
+  font-weight: bold; /* Negrita */
+  color: #fff; /* Color blanco */
+  font-size: 30px; }
+
+.container {
+  padding-top: 0px; /* Reduce el espacio dentro del contenedor */
+  padding-bottom: 1px; /* Reduce el espacio inferior en el contenedor */
+}
+.navdown .navbar-nav .nav-item {
+  margin-left: 0px; /* Añade espacio a la izquierda de cada botón */
+  margin-right: 0px; /* Añade espacio a la derecha de cada botón */
+}
+.nav-bottom-line {
+  border: none; /* Elimina el borde predeterminado */
+  border-bottom: 2px solid #fff; /* Línea blanca */
+  margin: 0; /* Elimina el margen predeterminado */
+}
+a.nav-link{padding:0px;}
+.navbar-brand:hover{color: white; /* Mantiene el color blanco al pasar el cursor */
+    text-decoration: none;
+}
+
+.rowcopy{text-align: center;
+	
+padding-top: 15px;
+background-color:#8D9EB9;}
+#papitas{margin-bottom: 0px;}
+.navbadown {
+    display: flex; 
+    justify-content: center;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+	
+}
+
+.tomate{background: rgb(248,73,25);
+background: radial-gradient(circle, rgba(248,73,25,0.9893207282913166) 0%, rgba(255,201,4,1) 100%);
+}
+.nav-item {
+    margin: 0 15px; 
+	padding-bottom: 40px;/* Espacio entre los elementos */
+}
+
+.nav-link {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #FFFFFF; /* Color del texto (puedes ajustarlo) */
+    font-size: 16px; /* Tamaño de la fuente */
+	font-weight:700;
+}
+
+.nav-link:hover {
+    color: white; /* Mantiene el color blanco al pasar el cursor */
+    text-decoration: none; /* Asegura que no haya subrayado */
+}
+.linea{margin:0px;}
+
+
+
+.ansiedad{background: rgb(255,63,0);
+background: linear-gradient(90deg, rgba(255,63,0,1) 0%, rgba(251,176,0,1) 50%, rgba(255,45,45,1) 100%);}
+.anger{background: rgb(56,0,0);
+background: linear-gradient(90deg, rgba(56,0,0,1) 0%, rgba(255,0,0,1) 32%, rgba(170,4,4,1) 50%, rgba(251,0,0,1) 76%, rgba(170,4,4,1) 100%);}
+.tristeza{background: rgb(81,72,255);
+background: linear-gradient(90deg, rgba(81,72,255,1) 0%, rgba(170,203,255,1) 50%, rgba(68,58,255,1) 100%);}
+
+.Alegria{background: rgb(255,228,72);
+background: linear-gradient(90deg, rgba(255,228,72,1) 9%, rgba(175,205,253,1) 47%, rgba(255,226,58,1) 85%);}
+
+  .embed-responsive {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* Mantén este valor para el aspecto 16:9 */
+            margin: 0; /* Asegura que no haya márgenes */
+            overflow: hidden;
+        }
+
+        .embed-responsive video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin: 0; /* Asegura que no haya márgenes en el video */
+            padding: 0; /* Asegura que no haya padding en el video */
+        }
+
